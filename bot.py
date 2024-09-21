@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-BOT_TOKEN = os.getenv('7747785089:AAFaPfz744URyjd1Lc2pUg_ZpEpF6_JBa1k')
+BOT_TOKEN = os.getenv('')
 
 # Initialize the bot with the token
-bot = telebot.TeleBot('7747785089:AAFaPfz744URyjd1Lc2pUg_ZpEpF6_JBa1k')
+bot = telebot.TeleBot('')
 
 # Function to get daily horoscope from API
 def get_daily_horoscope(sign: str, day: str) -> dict:
